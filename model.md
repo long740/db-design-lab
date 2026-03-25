@@ -48,6 +48,8 @@
 
 
 
+
+
 \## 4. 选课成绩表 (sc)
 
 | 字段名 | 数据类型 | 约束 | 说明 |
@@ -60,7 +62,7 @@
 
 | course\_id | INT | FOREIGN KEY REFERENCES course(course\_id), NOT NULL | 关联课程号 |
 
-| score | DECIMAL(5,2) | NULL | 课程成绩（支持小数） |
+| score | DECIMAL(5,2) | NULL | 课程成绩（支持小数，精度为两位） |
 
 
 
