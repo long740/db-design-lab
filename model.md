@@ -8,7 +8,7 @@
 
 | :--- | :--- | :--- | :--- |
 
-| st**uid**\_id | INT | PRIMARY KEY, NOT NULL | 学号（主键） |
+student_id | INT | PRIMARY KEY, NOT NULL | 学号（主键）
 
 | name | VARCHAR(20) | NOT NULL | 姓名 |
 
