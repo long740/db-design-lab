@@ -32,6 +32,8 @@
 
 
 
+
+
 \## 3. 课程表 (course)
 
 | 字段名 | 数据类型 | 约束 | 说明 |
@@ -42,7 +44,7 @@
 
 | course\_name | VARCHAR(50) | NOT NULL | 课程名称 |
 
-| teacher\_id | INT | FOREIGN KEY REFERENCES teacher(teacher\_id) | 关联授课教师 |
+| teacher\_id | INT | FOREIGN KEY REFERENCES teacher(teacher\_id) | 关联授课教师（外键） |
 
 
 
