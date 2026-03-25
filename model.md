@@ -8,7 +8,7 @@
 
 | :--- | :--- | :--- | :--- |
 
-| student\_id | INT | PRIMARY KEY, NOT NULL | 学号（主键） |
+| st**uid**\_id | INT | PRIMARY KEY, NOT NULL | 学号（主键） |
 
 | name | VARCHAR(20) | NOT NULL | 姓名 |
 
@@ -63,6 +63,4 @@
 | course\_id | INT | FOREIGN KEY REFERENCES course(course\_id), NOT NULL | 关联课程号 |
 
 | score | DECIMAL(5,2) | NULL | 课程成绩（支持小数，精度为两位） |
-
-
 
